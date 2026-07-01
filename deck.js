@@ -174,10 +174,13 @@
     el.style.setProperty("--dv", color);
     el.style.setProperty("--dvsoft", hexToRgba(color, 0.16));
     el.style.setProperty("--dvline", hexToRgba(color, 0.4));
+    const face = card.avatar
+      ? `<div class="mono has-img"><img src="${card.avatar}" alt="${card.name}" loading="lazy"></div>`
+      : `<div class="mono">${initials(card.name)}</div>`;
     el.innerHTML =
       `<span class="atag">${card.tag || ""}</span>` +
       `<div class="agent-top">` +
-        `<div class="mono">${initials(card.name)}</div>` +
+        face +
         `<div class="agent-id"><h3>${card.name}</h3><p class="role">${card.role}</p></div>` +
       `</div>` +
       `<span class="dvbadge">${card.division}</span>` +

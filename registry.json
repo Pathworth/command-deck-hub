@@ -242,7 +242,8 @@
           "division": "Brand & Build",
           "tag": "A07",
           "does": "Owns the whole brand and the locked house look.",
-          "specialty": "The Jermaine Peguese Signature, deliverable design, brand systems"
+          "specialty": "The Jermaine Peguese Signature, deliverable design, brand systems",
+          "avatar": "avatars/sterling.jpg"
         },
         {
           "id": "lumen",
@@ -251,7 +252,8 @@
           "division": "Brand & Build",
           "tag": "A08",
           "does": "Builds the websites and the front-end.",
-          "specialty": "Cinematic site builds (Healed Black Women, brand sites)"
+          "specialty": "Cinematic site builds (Healed Black Women, brand sites)",
+          "avatar": "avatars/lumen.jpg"
         },
         {
           "id": "glean",
@@ -260,7 +262,8 @@
           "division": "Brand & Build",
           "tag": "A09",
           "does": "Built FrameWorth and pulls the marketing stills.",
-          "specialty": "Video-to-stills, ranking and curating marketing-grade frames"
+          "specialty": "Video-to-stills, ranking and curating marketing-grade frames",
+          "avatar": "avatars/glean.jpg"
         },
         {
           "id": "kanon",
@@ -269,7 +272,8 @@
           "division": "Brand & Build",
           "tag": "A10",
           "does": "Builds the teaching frameworks and curriculum.",
-          "specialty": "Course and workshop design, the YoUseful framework"
+          "specialty": "Course and workshop design, the YoUseful framework",
+          "avatar": "avatars/kanon.jpg"
         },
         {
           "id": "norbit",
@@ -278,7 +282,8 @@
           "division": "Relationships & Outreach",
           "tag": "A11",
           "does": "Builds the book of business and relationship system.",
-          "specialty": "Pipeline, follow-up systems, the Pathworth Intelligence capture"
+          "specialty": "Pipeline, follow-up systems, the Pathworth Intelligence capture",
+          "avatar": "avatars/norbit.jpg"
         },
         {
           "id": "caden",
@@ -287,7 +292,8 @@
           "division": "Relationships & Outreach",
           "tag": "A12",
           "does": "Captures and structures the meeting notes.",
-          "specialty": "Field Notes standard, clean structured capture"
+          "specialty": "Field Notes standard, clean structured capture",
+          "avatar": "avatars/caden.jpg"
         },
         {
           "id": "vera",
@@ -314,7 +320,8 @@
           "division": "Money & Numbers",
           "tag": "A14",
           "does": "Reads bid packs and prices the jobs.",
-          "specialty": "Michigan mechanical and plumbing estimates, $2M to $25M+"
+          "specialty": "Michigan mechanical and plumbing estimates, $2M to $25M+",
+          "avatar": "avatars/klay.jpg"
         },
         {
           "id": "tabby",
