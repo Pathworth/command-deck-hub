@@ -57,9 +57,35 @@
 
   function matches(card) {
     if (!query) return true;
-    return (
-      (card.name + " " + card.desc + " " + (card.tag || "")).toLowerCase().indexOf(query) !== -1
-    );
+    const hay = [card.name, card.desc, card.role, card.division, card.specialty, card.does, card.tag]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    return hay.indexOf(query) !== -1;
+  }
+
+  // Division colors for the staff ID cards
+  const DIVISIONS = {
+    "NAACP Division": "#3b82f6",
+    "Brand & Build": "#8b5cf6",
+    "Relationships & Outreach": "#14b8a6",
+    "Strategy": "#f59e0b",
+    "Money & Numbers": "#22c55e",
+    "Founding Crew": "#64748b",
+  };
+
+  function hexToRgba(hex, a) {
+    const h = hex.replace("#", "");
+    const r = parseInt(h.slice(0, 2), 16);
+    const g = parseInt(h.slice(2, 4), 16);
+    const b = parseInt(h.slice(4, 6), 16);
+    return "rgba(" + r + "," + g + "," + b + "," + a + ")";
+  }
+
+  function initials(name) {
+    const parts = name.trim().split(/\s+/);
+    if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
   }
 
   function render() {
@@ -77,7 +103,8 @@
         `<h2>${section.title}</h2><p class="blurb">${section.blurb}</p>`;
       const grid = document.createElement("div");
       grid.className = "grid";
-      cards.forEach((card) => grid.appendChild(makeCard(card)));
+      const build = section.kind === "staff" ? makeAgentCard : makeCard;
+      cards.forEach((card) => grid.appendChild(build(card)));
       sec.appendChild(grid);
       app.appendChild(sec);
     });
@@ -137,6 +164,25 @@
     }
 
     el.appendChild(actions);
+    return el;
+  }
+
+  function makeAgentCard(card) {
+    const color = DIVISIONS[card.division] || "#007BFF";
+    const el = document.createElement("div");
+    el.className = "agent";
+    el.style.setProperty("--dv", color);
+    el.style.setProperty("--dvsoft", hexToRgba(color, 0.16));
+    el.style.setProperty("--dvline", hexToRgba(color, 0.4));
+    el.innerHTML =
+      `<span class="atag">${card.tag || ""}</span>` +
+      `<div class="agent-top">` +
+        `<div class="mono">${initials(card.name)}</div>` +
+        `<div class="agent-id"><h3>${card.name}</h3><p class="role">${card.role}</p></div>` +
+      `</div>` +
+      `<span class="dvbadge">${card.division}</span>` +
+      `<p class="does">${card.does}</p>` +
+      `<div class="spec"><span class="spec-l">Specializes in</span><p>${card.specialty}</p></div>`;
     return el;
   }
 

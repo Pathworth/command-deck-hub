@@ -174,6 +174,203 @@
           }
         }
       ]
+    },
+    {
+      "id": "staff",
+      "title": "The Staff",
+      "kind": "staff",
+      "blurb": "My AI team. Every agent, their division, and what they run.",
+      "cards": [
+        {
+          "id": "trace",
+          "name": "TRACE",
+          "role": "Data Integrity & Reconciliation",
+          "division": "NAACP Division",
+          "tag": "A01",
+          "does": "Keeps the membership records clean and reconciled.",
+          "specialty": "Squarespace to Salesforce reconciliation, catching data mismatches"
+        },
+        {
+          "id": "della",
+          "name": "Della",
+          "role": "Membership Records & Batch Processing",
+          "division": "NAACP Division",
+          "tag": "A02",
+          "does": "Runs the monthly membership batches end to end.",
+          "specialty": "Salesforce batches, convention roster, paper and online intake"
+        },
+        {
+          "id": "bridget",
+          "name": "Bridget",
+          "role": "BRIDGES Program Steward",
+          "division": "NAACP Division",
+          "tag": "A03",
+          "does": "Runs the BRIDGES youth summer program.",
+          "specialty": "Roster, weekly curriculum, family communications, the live dashboard"
+        },
+        {
+          "id": "emma",
+          "name": "Emma",
+          "role": "Back to School Program Manager",
+          "division": "NAACP Division",
+          "tag": "A06",
+          "does": "Runs the Back to School, Stay in School event.",
+          "specialty": "Aug 29 event workstream, the Back to School board"
+        },
+        {
+          "id": "helm",
+          "name": "HELM",
+          "role": "FFFFD Program Manager",
+          "division": "NAACP Division",
+          "tag": "A04",
+          "does": "Manages the Freedom Fund dinner program.",
+          "specialty": "Event reconciliation, program operations, the 71st FFFFD"
+        },
+        {
+          "id": "clara",
+          "name": "CLARA",
+          "role": "Committee Operations & Communications",
+          "division": "NAACP Division",
+          "tag": "A05",
+          "does": "Keeps committees coordinated and communicating.",
+          "specialty": "Committee comms, meeting operations"
+        },
+        {
+          "id": "sterling",
+          "name": "Sterling",
+          "role": "Brand & Signature Studio",
+          "division": "Brand & Build",
+          "tag": "A07",
+          "does": "Owns the whole brand and the locked house look.",
+          "specialty": "The Jermaine Peguese Signature, deliverable design, brand systems"
+        },
+        {
+          "id": "lumen",
+          "name": "Lumen",
+          "role": "Web Design & Build",
+          "division": "Brand & Build",
+          "tag": "A08",
+          "does": "Builds the websites and the front-end.",
+          "specialty": "Cinematic site builds (Healed Black Women, brand sites)"
+        },
+        {
+          "id": "glean",
+          "name": "GLEAN",
+          "role": "FrameWorth Architect & Stills Curator",
+          "division": "Brand & Build",
+          "tag": "A09",
+          "does": "Built FrameWorth and pulls the marketing stills.",
+          "specialty": "Video-to-stills, ranking and curating marketing-grade frames"
+        },
+        {
+          "id": "kanon",
+          "name": "Kanon",
+          "role": "Curriculum Architect & Standard-Keeper",
+          "division": "Brand & Build",
+          "tag": "A10",
+          "does": "Builds the teaching frameworks and curriculum.",
+          "specialty": "Course and workshop design, the YoUseful framework"
+        },
+        {
+          "id": "norbit",
+          "name": "Norbit",
+          "role": "Relationship Systems & Pipeline Builder",
+          "division": "Relationships & Outreach",
+          "tag": "A11",
+          "does": "Builds the book of business and relationship system.",
+          "specialty": "Pipeline, follow-up systems, the Pathworth Intelligence capture"
+        },
+        {
+          "id": "caden",
+          "name": "CADEN",
+          "role": "Notes & Capture",
+          "division": "Relationships & Outreach",
+          "tag": "A12",
+          "does": "Captures and structures the meeting notes.",
+          "specialty": "Field Notes standard, clean structured capture"
+        },
+        {
+          "id": "vera",
+          "name": "Vera",
+          "role": "Verified Email Routing (Outlook)",
+          "division": "Relationships & Outreach",
+          "tag": "A16",
+          "does": "Routes and organizes the email.",
+          "specialty": "Outlook routing and inbox order"
+        },
+        {
+          "id": "orion",
+          "name": "ORION",
+          "role": "Strategic Agent",
+          "division": "Strategy",
+          "tag": "A13",
+          "does": "Thinks through the big moves before you commit.",
+          "specialty": "High-level strategy and planning"
+        },
+        {
+          "id": "klay",
+          "name": "Klay Frank",
+          "role": "Chief Estimator, Mechanical & Plumbing",
+          "division": "Money & Numbers",
+          "tag": "A14",
+          "does": "Reads bid packs and prices the jobs.",
+          "specialty": "Michigan mechanical and plumbing estimates, $2M to $25M+"
+        },
+        {
+          "id": "tabby",
+          "name": "Tabby",
+          "role": "Tax Specialist & Preparer",
+          "division": "Money & Numbers",
+          "tag": "A15",
+          "does": "Handles federal and Michigan taxes.",
+          "specialty": "Personal and LLC returns, deductions, quarterly estimates"
+        },
+        {
+          "id": "stew",
+          "name": "Stew",
+          "role": "AI Filing Organizer",
+          "division": "Founding Crew",
+          "tag": "A17",
+          "does": "Organizes and files the files.",
+          "specialty": "Filing systems (older build, verify before leaning on it)"
+        },
+        {
+          "id": "whisper",
+          "name": "Whisper",
+          "role": "AI Transcribe Tool",
+          "division": "Founding Crew",
+          "tag": "A18",
+          "does": "Turns audio and video into text.",
+          "specialty": "Transcription (older build)"
+        },
+        {
+          "id": "harper",
+          "name": "Harper Wilson",
+          "role": "Voice AI (PCS)",
+          "division": "Founding Crew",
+          "tag": "A19",
+          "does": "Early voice AI work.",
+          "specialty": "Voice (older build)"
+        },
+        {
+          "id": "angie",
+          "name": "Angie",
+          "role": "OpenClaw Agent",
+          "division": "Founding Crew",
+          "tag": "A20",
+          "does": "One of the original assistants.",
+          "specialty": "General assistant (older build)"
+        },
+        {
+          "id": "nova",
+          "name": "Nova",
+          "role": "Assistant",
+          "division": "Founding Crew",
+          "tag": "A21",
+          "does": "Assistant support alongside Angie.",
+          "specialty": "Assistant support (older build)"
+        }
+      ]
     }
   ]
 }
