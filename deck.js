@@ -71,6 +71,7 @@
     "Relationships & Outreach": "#14b8a6",
     "Strategy": "#f59e0b",
     "Money & Numbers": "#22c55e",
+    "Operations": "#6366f1",
     "Founding Crew": "#64748b",
   };
 

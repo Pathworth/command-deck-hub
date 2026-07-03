@@ -183,6 +183,16 @@
       "blurb": "My AI team. Every agent, their division, and what they run.",
       "cards": [
         {
+          "id": "jellybean",
+          "name": "Jelly Bean",
+          "role": "Agent Operations Director",
+          "division": "Operations",
+          "tag": "A23",
+          "does": "Manages the whole agent infrastructure — keeps it optimized, accurate, and logged.",
+          "specialty": "The roster, the operations kit, change logs, case studies, and continuity",
+          "avatar": "avatars/jellybean.jpg"
+        },
+        {
           "id": "trace",
           "name": "TRACE",
           "role": "Data Integrity & Reconciliation",
@@ -221,6 +231,16 @@
           "does": "Runs the Back to School, Stay in School event.",
           "specialty": "Aug 29 event workstream, the Back to School board",
           "avatar": "avatars/emma.jpg"
+        },
+        {
+          "id": "connie",
+          "name": "Connie",
+          "role": "National Convention Delegate Operations",
+          "division": "NAACP Division",
+          "tag": "A22",
+          "does": "Runs the NAACP National Convention: delegates, alternates, registration, deadlines.",
+          "specialty": "Convention registration, the Streampoint portal, deadlines and rates",
+          "avatar": "avatars/connie.jpg"
         },
         {
           "id": "helm",
@@ -368,8 +388,8 @@
           "role": "Customer Service, Front Desk & Reception (PCS)",
           "division": "Founding Crew",
           "tag": "A19",
-          "does": "The very first agent I ever built. Now runs the front desk, reception, and customer service for Pathworth Consulting & Solutions.",
-          "specialty": "Customer-facing support, reception, front-desk — where it all started",
+          "does": "My very first agent. Runs customer service, front desk and reception for Pathworth Consulting & Solutions.",
+          "specialty": "A custom GPT inside Pathworth Intelligence Voice AI. Runs off this machine; her folder here is an access point.",
           "avatar": "avatars/harper.jpg"
         },
         {
@@ -378,8 +398,8 @@
           "role": "Entrepreneur CEO (OpenClaw)",
           "division": "Founding Crew",
           "tag": "A20",
-          "does": "One of my original assistants, and my first entrepreneur-CEO agent. Runs on OpenClaw.",
-          "specialty": "OpenClaw automation, CEO-level assistance",
+          "does": "One of my original assistants, and my first entrepreneur-CEO agent.",
+          "specialty": "An OpenClaw agent on a separate computer, run through Telegram. Folder here is an access point.",
           "avatar": "avatars/angie.jpg"
         },
         {
@@ -389,7 +409,7 @@
           "division": "Founding Crew",
           "tag": "A21",
           "does": "Angie's assistant.",
-          "specialty": "Support to Angie",
+          "specialty": "Same setup as Angie: a separate computer, run through Telegram. Folder here is an access point.",
           "avatar": "avatars/nova.jpg"
         }
       ]
