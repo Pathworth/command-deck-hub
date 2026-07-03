@@ -228,9 +228,17 @@
   // --- preview modal ---
   const modal = document.getElementById("modal");
   function openModal(card) {
+    document.getElementById("modal-tag").textContent = card.tag || "";
     document.getElementById("modal-title").textContent = card.name;
     document.getElementById("modal-sub").textContent = card.desc;
     document.getElementById("modal-mock").innerHTML = window.MOCKUPS[card.id] || "";
+    document.getElementById("modal-note").textContent = card.liveUrl
+      ? "A preview. Open Live to use it for real."
+      : "A preview. This one runs on your PC.";
+    const acts = document.getElementById("modal-actions");
+    acts.innerHTML = "";
+    if (card.liveUrl) acts.appendChild(linkBtn("Open Live", card.liveUrl, "btn btn-primary"));
+    if (card.github) acts.appendChild(linkBtn("Code", card.github, "btn btn-ghost"));
     modal.classList.add("show");
   }
   function closeModal() {

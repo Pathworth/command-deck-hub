@@ -44,13 +44,17 @@
   <div id="modal" class="modal">
     <div class="modal-box">
       <div class="modal-head">
-        <h3 id="modal-title"></h3>
+        <div class="modal-title-wrap">
+          <span id="modal-tag" class="modal-tag"></span>
+          <h3 id="modal-title"></h3>
+        </div>
         <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
       </div>
       <p class="modal-sub" id="modal-sub"></p>
-      <div id="modal-mock"></div>
+      <div class="modal-stage"><div id="modal-mock"></div></div>
       <div class="modal-foot">
-        <span class="modal-note">Preview of the interface. This tool runs on your PC.</span>
+        <span class="modal-note" id="modal-note"></span>
+        <div class="modal-actions" id="modal-actions"></div>
       </div>
     </div>
   </div>

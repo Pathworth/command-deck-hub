@@ -100,7 +100,7 @@
         {
           "id": "netflix",
           "name": "Jermaine — Netflix Brand Site",
-          "desc": "The cinematic personal-brand site. Your main showpiece.",
+          "desc": "My personal brand site, built like Netflix — browse who I am and what I build as if it were a streaming platform.",
           "tag": "W01",
           "liveUrl": "https://netflix-jermainepb-website.vercel.app",
           "github": "https://github.com/Pathworth/netflix-jermainepb"
@@ -108,7 +108,7 @@
         {
           "id": "chairman",
           "name": "Chairman of AI",
-          "desc": "The one-pager brand statement in the blue Signature.",
+          "desc": "The Chairman of AI one-pager — my brand statement as the people's AI authority, in the blue Signature.",
           "tag": "W02",
           "liveUrl": "https://chairman-of-ai-site.vercel.app",
           "github": "https://github.com/Pathworth/chairman-of-ai-site"
@@ -116,7 +116,7 @@
         {
           "id": "hbw",
           "name": "Healed Black Women",
-          "desc": "Cinematic nonprofit site (Detroit). Black and gold.",
+          "desc": "Cinematic black-and-gold site for Healed Black Women, a Detroit nonprofit I built for.",
           "tag": "W03",
           "liveUrl": "https://healed-black-women-detroit.netlify.app",
           "github": "https://github.com/Pathworth/healed-black-women-website"
@@ -124,9 +124,10 @@
         {
           "id": "infinity",
           "name": "Infinity Medical Group",
-          "desc": "Private client preview (not public). Source only.",
+          "desc": "Premium cinematic website for Infinity Medical Group, a client. Live on Netlify.",
           "tag": "W04",
-          "github": "https://github.com/Pathworth/infinity-medical-group-website"
+          "github": "https://github.com/Pathworth/infinity-medical-group-website",
+          "liveUrl": "https://infinity-medical-group.netlify.app"
         }
       ]
     },
@@ -146,7 +147,7 @@
         {
           "id": "back-to-school",
           "name": "Back to School 2026",
-          "desc": "Workstream board for the NAACP Aug 29 Back to School event. Not deployed yet.",
+          "desc": "The workstream board for the NAACP Back to School, Stay in School event (Aug 29). Emma is building the page now.",
           "tag": "P06",
           "github": "https://github.com/Pathworth/naacp-back-to-school-2026"
         },
@@ -364,31 +365,31 @@
         {
           "id": "harper",
           "name": "Harper Wilson",
-          "role": "Voice AI (PCS)",
+          "role": "Customer Service, Front Desk & Reception (PCS)",
           "division": "Founding Crew",
           "tag": "A19",
-          "does": "Early voice AI work.",
-          "specialty": "Voice (older build)",
+          "does": "The very first agent I ever built. Now runs the front desk, reception, and customer service for Pathworth Consulting & Solutions.",
+          "specialty": "Customer-facing support, reception, front-desk — where it all started",
           "avatar": "avatars/harper.jpg"
         },
         {
           "id": "angie",
           "name": "Angie",
-          "role": "OpenClaw Agent",
+          "role": "Entrepreneur CEO (OpenClaw)",
           "division": "Founding Crew",
           "tag": "A20",
-          "does": "One of the original assistants.",
-          "specialty": "General assistant (older build)",
+          "does": "One of my original assistants, and my first entrepreneur-CEO agent. Runs on OpenClaw.",
+          "specialty": "OpenClaw automation, CEO-level assistance",
           "avatar": "avatars/angie.jpg"
         },
         {
           "id": "nova",
           "name": "Nova",
-          "role": "Assistant",
+          "role": "Assistant to Angie",
           "division": "Founding Crew",
           "tag": "A21",
-          "does": "Assistant support alongside Angie.",
-          "specialty": "Assistant support (older build)",
+          "does": "Angie's assistant.",
+          "specialty": "Support to Angie",
           "avatar": "avatars/nova.jpg"
         }
       ]
